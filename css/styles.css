@@ -1672,3 +1672,69 @@ tr.highlight-row {
     grid-column: 1 / -1;
   }
 }
+
+.social-follow {
+  margin: 0.85rem 0 0.45rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--sport-gold);
+}
+
+.social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.85rem;
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.social-links svg {
+  width: 1.05em;
+  height: 1.05em;
+  fill: currentColor;
+  flex: 0 0 auto;
+}
+
+.site-footer .social-links {
+  font-size: 0.85rem;
+}
+
+.social-links-card {
+  margin-top: 0.85rem;
+  font-size: 1rem;
+}
+
+.social-links-card a {
+  color: var(--ink, #10211a);
+}
+
+.social-links-card a:hover {
+  color: var(--sport-green);
+}
+
+a.sponsor-logo-wrap,
+a.sponsor-card-logo {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.sponsor-logo-wrap:hover,
+a.sponsor-card-logo:hover {
+  outline: 2px solid var(--sport-gold);
+  outline-offset: 2px;
+  text-decoration: none;
+  color: inherit;
+}
