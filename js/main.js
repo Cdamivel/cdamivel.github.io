@@ -48,8 +48,8 @@
       trigger.addEventListener("click", function () {
         lastTrigger = trigger;
         lbImg.src = trigger.getAttribute("data-lightbox-src");
-        lbImg.alt = trigger.getAttribute("data-lightbox-alt") || "";
-        lbCaption.textContent = trigger.getAttribute("data-lightbox-caption") || "";
+        lbImg.alt = trigger.getAttribute("data-lightbox-alt") || "Foto del CD Amivel Reyes Gutiérrez";
+        if (lbCaption) lbCaption.textContent = "";
         lightbox.classList.add("is-open");
         lightbox.setAttribute("aria-hidden", "false");
         lbClose.focus();
