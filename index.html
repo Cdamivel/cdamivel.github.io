@@ -56,7 +56,10 @@
   <main id="contenido">
     <section class="hero" aria-label="Presentación del club">
       <div class="hero-bg" aria-hidden="true">
-        <img src="assets/galeria/flickr-07.jpg" alt="">
+        <picture>
+          <source media="(max-width: 700px)" srcset="assets/hero-equipo-1000.jpg">
+          <img src="assets/hero-equipo.jpg" alt="" width="2000" height="1333">
+        </picture>
       </div>
       <div class="container hero-grid">
         <div>
@@ -72,13 +75,13 @@
 
         <aside class="match-center-card" aria-label="Centro de partidos">
           <span class="mc-label">Próximo partido · Semifinal de la XXXVIII Copa Andaluza</span>
-          <h2 class="mc-matchup">Amivel Reyes Gutiérrez – BSR Vistazul</h2>
+          <h2 class="mc-matchup"><span class="team"><img class="team-crest" src="assets/escudos/amivel.png" alt="Escudo de Amivel Reyes Gutiérrez" width="28" height="28">Amivel Reyes Gutiérrez</span> – <span class="team"><img class="team-crest" src="assets/escudos/vistazul.png" alt="Escudo de BSR Vistazul" width="28" height="28">BSR Vistazul</span></h2>
           <p class="mc-meta">Sábado, 5 de diciembre de 2026 · 17:00 h · Sevilla (sede por determinar).<br>Según el resultado, se jugará la final el domingo 6 de diciembre a las 12:00 h o el partido por el 3.º-4.º puesto a las 10:00 h.</p>
 
           <hr class="mc-divider">
 
           <span class="mc-label">Siguiente partido de liga · Jornada 7 (Grupo A)</span>
-          <h2 class="mc-matchup" style="font-size:1.25rem;">CD Ilunion vs Amivel Reyes Gutiérrez</h2>
+          <h2 class="mc-matchup" style="font-size:1.25rem;"><span class="team"><img class="team-crest" src="assets/escudos/ilunion.png" alt="Escudo de CD Ilunion" width="28" height="28">CD Ilunion</span> vs <span class="team"><img class="team-crest" src="assets/escudos/amivel.png" alt="Escudo de Amivel Reyes Gutiérrez" width="28" height="28">Amivel Reyes Gutiérrez</span></h2>
           <p class="mc-meta">Sábado, 12 de diciembre de 2026 · 18:00 h · Pabellón Canal Isabel II. Duelo directo en la cumbre del Grupo A.</p>
 
           <hr class="mc-divider">
@@ -87,7 +90,7 @@
           <div class="mc-score-row">
             <div>
               <strong>Amivel Reyes Gutiérrez</strong><br>
-              <span style="font-size:0.85rem;color:#c8d6ce;">vs Econy Gran Canaria · Pab. Paco Aguilar</span>
+              <span style="font-size:0.85rem;color:#c8d6ce;">vs <span class="team"><img class="team-crest" src="assets/escudos/econy.png" alt="Escudo de Econy Gran Canaria" width="28" height="28">Econy Gran Canaria</span> · Pab. Paco Aguilar</span>
             </div>
             <span class="mc-score-num">88 – 59</span>
           </div>
@@ -190,7 +193,7 @@
             <tbody>
               <tr>
                 <td>1</td>
-                <td>BSR Amiab Albacete</td>
+                <td><span class="team"><img class="team-crest" src="assets/escudos/amiab.png" alt="Escudo de BSR Amiab Albacete" width="28" height="28">BSR Amiab Albacete</span></td>
                 <td>6</td>
                 <td>6</td>
                 <td>0</td>
@@ -201,7 +204,7 @@
               </tr>
               <tr>
                 <td>2</td>
-                <td>CD Ilunion</td>
+                <td><span class="team"><img class="team-crest" src="assets/escudos/ilunion.png" alt="Escudo de CD Ilunion" width="28" height="28">CD Ilunion</span></td>
                 <td>6</td>
                 <td>5</td>
                 <td>1</td>
@@ -212,7 +215,7 @@
               </tr>
               <tr class="highlight-row">
                 <td>3</td>
-                <td>Amivel Reyes Gutiérrez</td>
+                <td><span class="team"><img class="team-crest" src="assets/escudos/amivel.png" alt="Escudo de Amivel Reyes Gutiérrez" width="28" height="28">Amivel Reyes Gutiérrez</span></td>
                 <td>6</td>
                 <td>5</td>
                 <td>1</td>
@@ -223,7 +226,7 @@
               </tr>
               <tr>
                 <td>4</td>
-                <td>BBK Bilbao BSR</td>
+                <td><span class="team"><img class="team-crest" src="assets/escudos/bilbao.png" alt="Escudo de BBK Bilbao BSR" width="28" height="28">BBK Bilbao BSR</span></td>
                 <td>6</td>
                 <td>3</td>
                 <td>3</td>
@@ -234,7 +237,7 @@
               </tr>
               <tr>
                 <td>5</td>
-                <td>Fundación Aliados</td>
+                <td><span class="team"><img class="team-crest" src="assets/escudos/aliados.png" alt="Escudo de Fundación Aliados" width="28" height="28">Fundación Aliados</span></td>
                 <td>6</td>
                 <td>3</td>
                 <td>3</td>
@@ -245,7 +248,7 @@
               </tr>
               <tr>
                 <td>6</td>
-                <td>Econy Gran Canaria</td>
+                <td><span class="team"><img class="team-crest" src="assets/escudos/econy.png" alt="Escudo de Econy Gran Canaria" width="28" height="28">Econy Gran Canaria</span></td>
                 <td>6</td>
                 <td>2</td>
                 <td>4</td>
@@ -256,7 +259,7 @@
               </tr>
               <tr>
                 <td>7</td>
-                <td>Menarini Joventut</td>
+                <td><span class="team"><img class="team-crest" src="assets/escudos/joventut.png" alt="Escudo de Menarini Joventut" width="28" height="28">Menarini Joventut</span></td>
                 <td>6</td>
                 <td>0</td>
                 <td>6</td>
@@ -267,7 +270,7 @@
               </tr>
               <tr>
                 <td>8</td>
-                <td>Mideba Extremadura</td>
+                <td><span class="team"><img class="team-crest" src="assets/escudos/mideba.png" alt="Escudo de Mideba Extremadura" width="28" height="28">Mideba Extremadura</span></td>
                 <td>6</td>
                 <td>0</td>
                 <td>6</td>
