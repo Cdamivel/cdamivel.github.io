@@ -65,7 +65,7 @@ Tras indicar Alvaro que los colores no tenían por qué ceñirse exactamente al 
 2. **Dorsal oficial 2026-27 de Julio Vilas:** aparece como `[Pendiente: dorsal oficial 2026-27]` en `plantilla.html`.
 3. **Fotografías individuales de los 12 jugadores y del cuerpo técnico:** marcadas en `plantilla.html` como `[Pendiente: fotografía oficial del jugador]`.
 4. **Posibles integrantes adicionales del cuerpo técnico:** confirmar si hay preparador físico, fisioterapeuta o staff médico/comunicación para añadir a `plantilla.html`.
-5. **Jornada 7 (12 dic 2026 vs CD Ilunion):** falta hora oficial y pabellón exacto en Madrid (`index.html` y `calendario.html`), así como el calendario de la **2.ª fase (Grupo Oro)** cuando se publique.
+5. **Jornada 7 (12 de diciembre de 2026, 18:00 h, vs CD Ilunion en el Pabellón Canal Isabel II):** hora y pabellón ya publicados en `index.html` y `calendario.html`. Sigue pendiente el calendario de la **2.ª fase (Grupo Oro)** cuando se publique.
 6. **V Supercopa de España (Cuenca, 9-10 oct 2026):** falta confirmar el marcador del partido por el 3.º y 4.º puesto del 10 de octubre (`calendario.html`).
 7. **Competición europea 2026-27:** confirmar sede, grupo y fechas si el equipo disputa EuroCup esta temporada (`calendario.html`).
 8. **Segunda cuenta de Flickr (`AmivelRG`):** localizar el enlace exacto de la cuenta «AmivelRG» (la encontrada y enlazada es `Amivel Reyes Gutiérrez / prensaamivelbsr`, `203475003@N02`, donde hay 1.000 fotos) y confirmar si se quieren añadir álbumes concretos de 2026-27 (`galeria.html`).
